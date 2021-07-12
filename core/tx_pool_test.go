@@ -27,14 +27,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/demindsmr/bsc/common"
+	"github.com/demindsmr/bsc/core/rawdb"
+	"github.com/demindsmr/bsc/core/state"
+	"github.com/demindsmr/bsc/core/types"
+	"github.com/demindsmr/bsc/crypto"
+	"github.com/demindsmr/bsc/event"
+	"github.com/demindsmr/bsc/params"
+	"github.com/demindsmr/bsc/trie"
 )
 
 // testTxPoolConfig is a transaction pool configuration without stateful disk

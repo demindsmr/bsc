@@ -17,8 +17,8 @@
 package vm
 
 import (
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
+	"github.com/demindsmr/bsc/common"
+	"github.com/demindsmr/bsc/common/math"
 	"github.com/holiman/uint256"
 )
 

@@ -21,9 +21,9 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/demindsmr/bsc/common"
+	"github.com/demindsmr/bsc/ethdb/memorydb"
+	"github.com/demindsmr/bsc/trie"
 )
 
 // randTest performs random trie operations.

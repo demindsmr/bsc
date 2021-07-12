@@ -26,15 +26,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state/snapshot"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/demindsmr/bsc"
+	"github.com/demindsmr/bsc/common"
+	"github.com/demindsmr/bsc/core/rawdb"
+	"github.com/demindsmr/bsc/core/state/snapshot"
+	"github.com/demindsmr/bsc/core/types"
+	"github.com/demindsmr/bsc/eth/protocols/eth"
+	"github.com/demindsmr/bsc/ethdb"
+	"github.com/demindsmr/bsc/event"
+	"github.com/demindsmr/bsc/trie"
 )
 
 // Reduce some of the parameters to make the tester faster.

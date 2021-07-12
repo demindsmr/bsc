@@ -23,9 +23,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/demindsmr/bsc/cmd/utils"
+	"github.com/demindsmr/bsc/consensus/ethash"
+	"github.com/demindsmr/bsc/params"
 	"gopkg.in/urfave/cli.v1"
 )
 

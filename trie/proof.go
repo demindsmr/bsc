@@ -21,11 +21,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/demindsmr/bsc/common"
+	"github.com/demindsmr/bsc/ethdb"
+	"github.com/demindsmr/bsc/ethdb/memorydb"
+	"github.com/demindsmr/bsc/log"
+	"github.com/demindsmr/bsc/rlp"
 )
 
 // Prove constructs a merkle proof for key. The result contains all encoded nodes

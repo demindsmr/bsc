@@ -24,13 +24,13 @@ import (
 	"net"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/simulations/pipes"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/demindsmr/bsc/event"
+	"github.com/demindsmr/bsc/log"
+	"github.com/demindsmr/bsc/node"
+	"github.com/demindsmr/bsc/p2p"
+	"github.com/demindsmr/bsc/p2p/enode"
+	"github.com/demindsmr/bsc/p2p/simulations/pipes"
+	"github.com/demindsmr/bsc/rpc"
 	"github.com/gorilla/websocket"
 )
 

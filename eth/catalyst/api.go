@@ -23,16 +23,16 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	chainParams "github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/demindsmr/bsc/common"
+	"github.com/demindsmr/bsc/core"
+	"github.com/demindsmr/bsc/core/state"
+	"github.com/demindsmr/bsc/core/types"
+	"github.com/demindsmr/bsc/eth"
+	"github.com/demindsmr/bsc/log"
+	"github.com/demindsmr/bsc/node"
+	chainParams "github.com/demindsmr/bsc/params"
+	"github.com/demindsmr/bsc/rpc"
+	"github.com/demindsmr/bsc/trie"
 )
 
 // Register adds catalyst APIs to the node.

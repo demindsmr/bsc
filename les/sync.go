@@ -21,12 +21,12 @@ import (
 	"errors"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/light"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/demindsmr/bsc/common"
+	"github.com/demindsmr/bsc/core/rawdb"
+	"github.com/demindsmr/bsc/eth/downloader"
+	"github.com/demindsmr/bsc/light"
+	"github.com/demindsmr/bsc/log"
+	"github.com/demindsmr/bsc/params"
 )
 
 var errInvalidCheckpoint = errors.New("invalid advertised checkpoint")

@@ -22,8 +22,8 @@ import (
 	"net/http"
 	"sort"
 
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/demindsmr/bsc/log"
+	"github.com/demindsmr/bsc/metrics"
 )
 
 // Handler returns an HTTP handler which dump metrics in Prometheus format.

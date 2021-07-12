@@ -27,12 +27,12 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/usbwallet/trezor"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/demindsmr/bsc/accounts"
+	"github.com/demindsmr/bsc/accounts/usbwallet/trezor"
+	"github.com/demindsmr/bsc/common"
+	"github.com/demindsmr/bsc/common/hexutil"
+	"github.com/demindsmr/bsc/core/types"
+	"github.com/demindsmr/bsc/log"
 	"github.com/golang/protobuf/proto"
 )
 

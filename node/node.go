@@ -27,13 +27,13 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/demindsmr/bsc/accounts"
+	"github.com/demindsmr/bsc/core/rawdb"
+	"github.com/demindsmr/bsc/ethdb"
+	"github.com/demindsmr/bsc/event"
+	"github.com/demindsmr/bsc/log"
+	"github.com/demindsmr/bsc/p2p"
+	"github.com/demindsmr/bsc/rpc"
 	"github.com/prometheus/tsdb/fileutil"
 )
 

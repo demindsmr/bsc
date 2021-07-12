@@ -18,8 +18,8 @@
 package ethconfig
 
 import (
-	"github.com/ethereum/go-ethereum/consensus/parlia"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
+	"github.com/demindsmr/bsc/consensus/parlia"
+	"github.com/demindsmr/bsc/internal/ethapi"
 	"math/big"
 	"os"
 	"os/user"
@@ -27,18 +27,18 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/clique"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/eth/gasprice"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/miner"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/demindsmr/bsc/common"
+	"github.com/demindsmr/bsc/consensus"
+	"github.com/demindsmr/bsc/consensus/clique"
+	"github.com/demindsmr/bsc/consensus/ethash"
+	"github.com/demindsmr/bsc/core"
+	"github.com/demindsmr/bsc/eth/downloader"
+	"github.com/demindsmr/bsc/eth/gasprice"
+	"github.com/demindsmr/bsc/ethdb"
+	"github.com/demindsmr/bsc/log"
+	"github.com/demindsmr/bsc/miner"
+	"github.com/demindsmr/bsc/node"
+	"github.com/demindsmr/bsc/params"
 )
 
 // FullNodeGPO contains default gasprice oracle settings for full node.

@@ -26,12 +26,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/prque"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/demindsmr/bsc/common"
+	"github.com/demindsmr/bsc/common/prque"
+	"github.com/demindsmr/bsc/core/types"
+	"github.com/demindsmr/bsc/log"
+	"github.com/demindsmr/bsc/metrics"
+	"github.com/demindsmr/bsc/trie"
 )
 
 const (
