@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/demindsmr/bsc/common"
+	"github.com/demindsmr/bsc/core/rawdb"
+	"github.com/demindsmr/bsc/core/types"
 )
 
 // Runs multiple tests with randomized parameters.

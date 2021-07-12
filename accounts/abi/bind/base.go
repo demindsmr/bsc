@@ -22,12 +22,12 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/event"
+	"github.com/demindsmr/bsc"
+	"github.com/demindsmr/bsc/accounts/abi"
+	"github.com/demindsmr/bsc/common"
+	"github.com/demindsmr/bsc/core/types"
+	"github.com/demindsmr/bsc/crypto"
+	"github.com/demindsmr/bsc/event"
 )
 
 // SignerFn is a signer function callback when a contract requires a method to

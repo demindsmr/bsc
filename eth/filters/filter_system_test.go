@@ -26,17 +26,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/bloombits"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/demindsmr/bsc"
+	"github.com/demindsmr/bsc/common"
+	"github.com/demindsmr/bsc/consensus/ethash"
+	"github.com/demindsmr/bsc/core"
+	"github.com/demindsmr/bsc/core/bloombits"
+	"github.com/demindsmr/bsc/core/rawdb"
+	"github.com/demindsmr/bsc/core/types"
+	"github.com/demindsmr/bsc/ethdb"
+	"github.com/demindsmr/bsc/event"
+	"github.com/demindsmr/bsc/params"
+	"github.com/demindsmr/bsc/rpc"
 )
 
 var (

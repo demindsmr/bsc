@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/demindsmr/bsc/consensus"
+	"github.com/demindsmr/bsc/core/state"
+	"github.com/demindsmr/bsc/core/types"
+	"github.com/demindsmr/bsc/params"
+	"github.com/demindsmr/bsc/trie"
 )
 
 // BlockValidator is responsible for validating block headers, uncles and

@@ -23,11 +23,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/demindsmr/bsc/common"
+	"github.com/demindsmr/bsc/core/rawdb"
+	"github.com/demindsmr/bsc/ethdb"
+	"github.com/demindsmr/bsc/log"
+	"github.com/demindsmr/bsc/metrics"
 	bloomfilter "github.com/holiman/bloomfilter/v2"
 )
 

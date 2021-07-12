@@ -21,10 +21,10 @@ import (
 	"io"
 	"os"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/demindsmr/bsc/common"
+	"github.com/demindsmr/bsc/core/types"
+	"github.com/demindsmr/bsc/log"
+	"github.com/demindsmr/bsc/rlp"
 )
 
 // errNoActiveJournal is returned if a transaction is attempted to be inserted

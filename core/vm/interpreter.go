@@ -20,9 +20,9 @@ import (
 	"hash"
 	"sync/atomic"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/demindsmr/bsc/common"
+	"github.com/demindsmr/bsc/common/math"
+	"github.com/demindsmr/bsc/log"
 )
 
 // Config are the configuration options for the Interpreter

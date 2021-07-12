@@ -4,8 +4,8 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/core/vm/lightclient"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/demindsmr/bsc/core/vm/lightclient"
+	"github.com/demindsmr/bsc/params"
 )
 
 const (
